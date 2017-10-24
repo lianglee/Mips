@@ -31,7 +31,7 @@ main:
 	jal addtwoArrayVal
 	j exit
 addtwoArrayVal:
-	#rembember $a0 argument (<a0>...) contain address of array or array[0]
+	#rembember $a0 argument (<a0>...) contain address of array or array[0] address
 	#load array[0] in a0
 	lw  $t2, ($a0)  # $t2 = array[0]
 	
